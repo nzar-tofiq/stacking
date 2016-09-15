@@ -1,0 +1,24 @@
+/* I've put this here as an example but I'm not 100% sure if a base css is required, perhaps check with MW */
+@import url("/css/generic/gen2-print-V1.min.css?md5=e8e7f64e405449f93b792757ea65cee3");
+
+.social-icons {
+	display:none;
+}
+
+.header-buttons {
+	display:none;
+}
+
+h1 {
+	font-size: 7rem;
+	line-height: 5.5rem;
+}
+
+a.vsmall.bn0:before, a.vsmall.bn1:before, a.vsmall.bn2:before, a.vsmall.bn3:before, a.vsmall.bn4:before	{
+	display:none 
+}
+
+#header-outer .header-container .company-logo span.svg-lucozade-icon	{
+	color: #000;
+	text-shadow: none;
+}
