@@ -1,183 +1,166 @@
 <!DOCTYPE html>
 <html>
 
-<head>
-	<meta charset="utf-8">
-	<title></title>
-</head>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
 
-<body>
-	<style media="screen">
-		.columns {
-			-moz-column-gap: 2%;
-			-moz-column-fill: auto;
-			-webkit-column-gap: 2%;
-			-webkit-column-fill: auto;
-			column-gap: 2%;
-			column-fill: auto;
-		}
-
-		.pin {
-			-moz-column-break-inside: avoid;
-			-webkit-column-break-inside: avoid;
-			column-break-inside: avoid;
-			display: inline-block;
-			width: 95%;
-			border: thin red solid;
-			margin: 2% auto;
-			padding: 2%;
-		}
-
-		.pin img {
-			width: 95%;
-			margin-left: auto;
-			margin-right: auto;
-		}
-
-		.pin h1 {
-			text-align: center;
-		}
-
-		@media (min-width: 600px) {
+	<body>
+		<style>
 			.columns {
-				-moz-column-count: 1;
-				-webkit-column-count: 1;
-				column-count: 1;
+				width: 90%;
 			}
-		}
 
-		@media (min-width: 960px) {
-			.columns {
-				-moz-column-count: 2;
-				-webkit-column-count: 2;
-				column-count: 2;
+			.pin {
+				border: thin red solid;
+				width: 300px;
+				display: inline-block;
 			}
-		}
 
-		@media (min-width: 1200px) {
-			.columns {
-				-moz-column-count: 3;
-				-webkit-column-count: 3;
-				column-count: 3;
+			p {
+				width: 90%;
+				margin-left: auto;
+				margin-right: auto;
 			}
-		}
-	</style>
-	<div class="columns">
-		<a href="#">
-			<div class="pin">
 
-				<img src="kitten.jpg" alt="" />
-				<h1>1</h1>
-				<p>
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-					in reprehenderit iat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-				</p>
-			</div>
-		</a>
-		<a href="#">
-			<div class="pin">
+			.pin img {
+				width: 95%;
+				margin-left: auto;
+				margin-right: auto;
+			}
 
-				<img src="kitten.jpg" alt="" />
-				<h1>2</h1>
-				<p>
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod luptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-				</p>
-			</div>
-		</a>
-		<a href="#">
-			<div class="pin">
+			.pin h1 {
+				text-align: center;
+			}
+		</style>
+		<div class="columns">
+			<a href="#">
+				<div class="pin">
 
-				<img src="kitten.jpg" alt="" />
-				<h1>3</h1>
-				<p>
-					lore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-				</p>
-			</div>
-		</a>
-		<a href="#">
-			<div class="pin">
+					<img src="kitten.jpg" alt="" />
+					<h1>1</h1>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+						in reprehenderit iat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+					</p>
+				</div>
+			</a>
+			<a href="#">
+				<div class="pin">
 
-				<img src="kitten.jpg" alt="" />
-				<h1>4</h1>
-				<p>
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-				</p>
-			</div>
-		</a>
-		<a href="#">
-			<div class="pin">
+					<img src="kitten.jpg" alt="" />
+					<h1>2</h1>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod luptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+					</p>
+				</div>
+			</a>
+			<a href="#">
+				<div class="pin">
 
-				<img src="kitten.jpg" alt="" />
-				<h1>5</h1>
-				<p>
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
-				</p>
-			</div>
-		</a>
-		<a href="#">
-			<div class="pin">
+					<img src="kitten.jpg" alt="" />
+					<h1>3</h1>
+					<p>
+						lore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+					</p>
+				</div>
+			</a>
+			<a href="#">
+				<div class="pin">
 
-				<img src="kitten.jpg" alt="" />
-				<h1>6</h1>
-				<p>
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed d Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-				</p>
-			</div>
-		</a>
-		<a href="#">
-			<div class="pin">
+					<img src="kitten.jpg" alt="" />
+					<h1>4</h1>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+					</p>
+				</div>
+			</a>
+			<a href="#">
+				<div class="pin">
 
-				<img src="kitten.jpg" alt="" />
-				<h1>7</h1>
-				<p>
-					Lorem ipsum
-				</p>
-			</div>
-		</a>
-		<a href="#">
-			<div class="pin">
+					<img src="kitten.jpg" alt="" />
+					<h1>5</h1>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
+					</p>
+				</div>
+			</a>
+			<a href="#">
+				<div class="pin">
 
-				<img src="kitten.jpg" alt="" />
-				<h1>8</h1>
-				<p>
-					Lorem ipsum dolor pariatur.
-				</p>
-			</div>
-		</a>
-		<a href="#">
-			<div class="pin">
+					<img src="kitten.jpg" alt="" />
+					<h1>6</h1>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed d Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+					</p>
+				</div>
+			</a>
+			<a href="#">
+				<div class="pin">
 
-				<img src="kitten.jpg" alt="" />
-				<h1>9</h1>
-				<p>
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-					in reprehenderit in voluptate veli
-				</p>
-			</div>
-		</a>
-		<a href="#">
-			<div class="pin">
+					<img src="kitten.jpg" alt="" />
+					<h1>7</h1>
+					<p>
+						Lorem ipsum
+					</p>
+				</div>
+			</a>
+			<a href="#">
+				<div class="pin">
 
-				<img src="kitten.jpg" alt="" />
-				<h1>10</h1>
-				<p>
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-					in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-				</p>
-			</div>
-		</a>
-		<a href="#">
-			<div class="pin">
+					<img src="kitten.jpg" alt="" />
+					<h1>8</h1>
+					<p>
+						Lorem ipsum dolor pariatur.
+					</p>
+				</div>
+			</a>
+			<a href="#">
+				<div class="pin">
 
-				<img src="kitten.jpg" alt="" />
-				<h1>11</h1>
-				<p>
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-					in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-				</p>
-			</div>
-		</a>
-	</div>
-</body>
+					<img src="kitten.jpg" alt="" />
+					<h1>9</h1>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+						in reprehenderit in voluptate veli
+					</p>
+				</div>
+			</a>
+			<a href="#">
+				<div class="pin">
+
+					<img src="kitten.jpg" alt="" />
+					<h1>10</h1>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+						in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+					</p>
+				</div>
+			</a>
+			<a href="#">
+				<div class="pin">
+
+					<img src="kitten.jpg" alt="" />
+					<h1>11</h1>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+						in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+					</p>
+				</div>
+			</a>
+		</div>
+		<script src="masonry.js"></script>
+		<script>
+			/* content-stream.css line 207 float changed */
+			$(document).ready(function() {
+				$('.columns').masonry({
+					// options
+					itemSelector: '.pin',
+					columnWidth: 310
+				});
+			});
+		</script>
+	</body>
 
 </html>
