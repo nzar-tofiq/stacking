@@ -1351,6 +1351,8 @@
 		<script>
 			/* content-stream.css line 207 float changed */
 			$(document).ready(function() {
+				// Unloaded images can throw off Masonry layouts and cause item elements to overlap.
+				// source http://masonry.desandro.com/layout.html#imagesloaded
 				var $grid = $('.content-stream-article-wrapper').imagesLoaded(function functionName() {
 					$grid.masonry({
 						// options
