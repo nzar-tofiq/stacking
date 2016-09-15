@@ -1358,7 +1358,15 @@
 					$grid.masonry({
 						// options
 						itemSelector: '.content-stream-article-item',
-						columnWidth: 310
+						columnWidth: 310,
+						initLayout: false,
+						originTop: true
+					});
+					// When initLayout is set to false, the layout does not stacked until this function is called
+					// This is good for executing on certain events like scroll to support the infinite scroll 
+					$grid.masonry();
+					$(window).on('scroll', function() {
+						$grid.masonry();
 					});
 				});
 			});
